@@ -1,0 +1,379 @@
+@import url(//db.onlinewebfonts.com/c/fd1ad3a0f95210975d2f5607501020b5?family=Norse);
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  background-color: rgb(243, 243, 243);
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* ---------------------------------------------------- */
+body {
+  display: flex;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+header {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40vw;
+  background-size: cover;
+  color: whitesmoke;
+  background-image: url("https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+}
+
+.page-title-cont {
+  display: flex;
+  width: 100%;
+  height: 24vh;
+  justify-content: center;
+  align-items: center;
+  margin-top: 18vh;
+  background-color: rgb(10, 10, 10, 60%);
+}
+
+.page-title {
+  font-size: 8vw;
+  font-family: Norse;
+  font-weight: bold;
+}
+
+.page-log {
+  width: 7.5vw;
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 1.7vmin;
+  font-weight: bolder;
+}
+
+.footer-img {
+  width: 2vw;
+  max-width: 100%;
+  height: auto;
+  transition: 0.2s;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.footer-img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60vw;
+  gap: 4%;
+}
+
+.header-info-cont {
+  height: 20vh;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 0px 250px 0px 55px;
+  box-sizing: border-box;
+  flex-direction: column;
+  font-size: 1.3vw;
+  line-height: 125%;
+  font-weight: 550;
+}
+
+.p2 {
+  margin-top: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 34vh;
+  padding: 25px 0px 35px 55px;
+  box-sizing: border-box;
+  gap: 20px;
+  box-shadow: 5px 3px 13px rgb(0, 0, 0, 0.2);
+  /* overflow: auto; */
+}
+
+.legend {
+  display: flex;
+  width: 100%;
+  font-size: 1.3vw;
+  font-weight: 550;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  display: flex;
+  flex-flow: row wrap;
+  width: 70%;
+  height: 100%;
+  gap: 20px;
+  overflow: hidden;
+}
+
+.input {
+  width: 32%;
+  font-size: 0.7vw;
+  font-weight: 550;
+  color: rgb(75, 75, 75);
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin-right: 10%;
+}
+
+input {
+  width: 100%;
+  height: 2.9vh;
+  border-radius: 4px;
+  border: 1px solid rgb(211, 211, 211);
+  background-color: rgb(251, 251, 251);
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  margin-left: 55px;
+  width: 11vw;
+  height: 5vh;
+  font-size: 1vw;
+  background-color: rgb(87, 126, 24);
+  color: whitesmoke;
+  font-weight: 550;
+  border-radius: 7px;
+  border: none;
+  transition: 0.1s;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(71, 104, 18);
+}
+
+.login-p {
+  display: flex;
+  gap: 10px;
+  margin-left: 55px;
+  font-size: 1vw;
+}
+
+.login-text {
+  font-weight: bold;
+  color: rgb(87, 126, 24);
+  transition: 0.1s;
+}
+
+.login-text:hover {
+  cursor: pointer;
+  color: rgb(71, 104, 18);
+}
+
+@media (max-width: 700px) {
+  body {
+    flex-direction: column;
+  }
+  header {
+    height: 35vh;
+    width: 100vw;
+  }
+  .page-title-cont {
+    height: 24vh;
+    margin-top: 6vh;
+  }
+  .page-title {
+    font-size: 20vmin;
+  }
+  .page-log {
+    width: 17vw;
+  }
+  footer {
+    font-size: 2vmin;
+    gap: 10px;
+  }
+  .footer-img {
+    width: 3vw;
+  }
+  main {
+    width: 100vw;
+    align-items: center;
+    gap: 20px;
+  }
+  .header-info-cont {
+    height: 42vh;
+    padding: 0px 35px;
+    font-size: 4vmin;
+  }
+
+  .p2 {
+    margin-top: 20px;
+  }
+  form {
+    padding: 25px 0px 25px 35px;
+    gap: 10px;
+    height: 42vh;
+  }
+  .legend {
+    font-size: 4vmin;
+  }
+  fieldset {
+    width: 100%;
+    gap: 17px;
+  }
+  .input {
+    width: 33%;
+    font-size: 2vmin;
+    gap: 2px;
+  }
+  input {
+    width: 100%;
+    height: 3.1vh;
+  }
+  button {
+    margin-left: 0px;
+    width: 35vw;
+    height: 6vh;
+    font-size: 4vmin;
+  }
+  .login-p {
+    gap: 10px;
+    margin-left: 0px;
+    font-size: 3.3vmin;
+    margin-bottom: 25px;
+  }
+}
